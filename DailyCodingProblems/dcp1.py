@@ -11,7 +11,7 @@
 
 # dcp1.py
 
-input_num_list = input('\n\nEnter a list of numbers separted by a space (press enter when finished):  ')
+input_num_list = input('\n\nEnter a list of numbers separated by a space (press enter when finished):  ')
 num_list = input_num_list.split()
 num_list = list(map(int, num_list))
 
